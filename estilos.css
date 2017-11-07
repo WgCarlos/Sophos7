@@ -1,7 +1,7 @@
 .servico1{
 	margin-top: 60px;
 }
-.servico1 h3{
+.servico1 h1{
 	text-align: center;
 }
 .servico2{
@@ -37,4 +37,17 @@
 }
 .nfehome h1{
 	text-align: center;
+}
+.clienteshome{
+	margin-top: 
+}
+.clients-logo{
+	background-color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	display: block;
+	height: auto;
+	margin: 0px;
+	padding: 25px;
+	width: auto;
+	white-space: nowrap;
 }
