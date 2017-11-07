@@ -1,7 +1,7 @@
 .servico1{
 	margin-top: 60px;
 }
-.h3servico1{
+.servico1 h3{
 	text-align: center;
 }
 .servico2{
@@ -9,16 +9,32 @@
 }
 
 .bihome{
+	margin-top: 60px;
 	background-image: url("img/BI.jpg");
-	padding-top: 100px;
-	padding-bottom: 100px;
-	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 350px;
+	opacity: 2.0;
 }
-.h3homebi{
+.bihome h1{
+	padding-top: 70px;
 	color: #FFFFFF;
 	text-align: center;
+	font-size: 36px;
 }
-.phomebi{
+.bihome p{
 	color: #FFFFFF;
-	text-align: justify;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
+.btn-area{
+	text-align: center;
+}
+.nfehome{
+	padding-top: 60px;
+}
+.nfehome h1{
+	text-align: center;
 }
