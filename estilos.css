@@ -41,13 +41,7 @@
 .clienteshome{
 	margin-top: 60px;
 }
-.clients-logo{
-	background-color: #FFFFFF;
-	border: 2px solid #FFFFFF;
-	display: block;
+.img-clientes{
+	width: 85%;
 	height: auto;
-	margin: 0px;
-	padding: 25px;
-	width: auto;
-	white-space: nowrap;
 }
