@@ -1,3 +1,7 @@
+.menuHome{
+	margin-bottom: 30px;
+	margin-top: 25px;
+}
 .servico1{
 	margin-top: 60px;
 }
@@ -44,4 +48,14 @@
 .img-clientes{
 	width: 85%;
 	height: auto;
+}
+.contato-footer{
+	margin-top: 150px;
+}
+.contato-footer h1{
+	text-align: center;
+}
+.rodape p{
+	opacity: 0.5;
+	margin-top: 45px;
 }

@@ -13,32 +13,38 @@
 	</head>
 <body>
 <!-- Menu -->
-	<div class="container">
-	<div>
-		<nav class="navbar navbar-light">
-			<a class="navbar-brand" href="#">
-				<img src="img/sophos1.png" width="170" height="35" alt="">
-			</a>
-			<ul class="nav nav-pills justify-content-end">
-			  <li class="nav-item">
-			    <a class="nav-link active" href="#">Início</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Sophos7</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Soluções</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" href="#">Eventos</a>
-			  </li>
-			  <li class="nav-item">
-			  	<a class="nav-link" href="#">Contato</a>
-			  </li>
-			</ul>
-		</nav>	
-	</div>
-	</div>
+<nav class="container">
+	<nav class="menuHome">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<a class="navbar-brand" href="#"><img src="img/sophos1.png" width="170" height="35" alt=""></a>
+ 			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   					 <span class="navbar-toggler-icon"></span>
+  				</button>
+ 			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    			<ul class="nav nav-pills">
+  					<li class="nav-item">
+    					<a class="nav-link active" href="#">Início</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="#">Sophos7</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="#">Soluções</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="#">Eventos</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="#">Contato</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link disabled" href="#">Login</a>
+  					</li>
+				</ul>
+ 			</div>
+		</nav>
+	</nav>	
+</nav>
 	<!--Slider-->
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">
@@ -135,20 +141,20 @@
 	</div>
 
 	<!--Home BI-->
-			<div class="bihome">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Já ouviu falar em DashBoard ou BI?</h1>
-						<p>Nossas soluções de alta performance proporcionam aos gestores o acompanhamento sobre as oscilações das <br> variáveis do ambiente corporativo através de gráficos, indicadores econômicos, financeiros e de performance, <br> comparativos periódicos, rankings e outros resultados produzidos por meio de fórmulas personalizadas.</p>
-						<div class="btn-area">					
-							<a class="btn btn-primary" href="#" role="button">DashBoard</a>
-							<a class="btn btn-secondary" href="#" role="button">Bussines Inteligence</a>
-						</div>
+	<div class="bihome">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Já ouviu falar em DashBoard ou BI?</h1>
+					<p>Nossas soluções de alta performance proporcionam aos gestores o acompanhamento sobre as oscilações das <b> 	variáveis do ambiente corporativo através de gráficos, indicadores econômicos, financeiros e de performance, <br> comparativos periódicos, rankings e outros resultados produzidos por meio de fórmulas personalizadas.</p>
+					<div class="btn-area">					
+						<a class="btn btn-primary" href="#" role="button">DashBoard</a>
+						<a class="btn btn-secondary" href="#" role="button">Bussines Inteligence</a>
 					</div>
 				</div>
-			</div>	
-		</div>		
+			</div>
+		</div>	
+	</div>		
 	
 	<!--NFE FAZENDA-->
 	<div class="container">
@@ -236,20 +242,49 @@
 	<div class="container">
 		<div class="contato-footer">
 			<div class="row">
-				<div class="col">
+				<div class="col-md-12">
 					<div>
 						<h1>Entre em contato com a gente</h1>
 					</div>	
-					<div>
-						<i class="fa fa-phone" aria-hidden="true"></i>
+				</div>
+			</div>	
+				<div class="row">
+					<div class="col-md-4">
+						<div>
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</div>
+						<div>
+							<p>Dúvidas? Ligue-nos agora</p>
+							<p>81 3034-6284</p>
+						</div>
 					</div>
-					<div>
-						<p>Dúvidas? Ligue-nos agora</p>
-						<p>81 3034-6284</p>
+					<div class="col-md-4">
+						<div>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+						</div>
+						<div>
+							<p>Estamos abertos de segunda a sexta-feira</p>
+							<p>Seg-Sex: 08h ás 18h <br>Sab: 08h ás 12h</p>
+						</div>
 					</div>
-				</div>					
-			</div>
+					<div class="col-md-4">
+						<div>
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div>
+							<p>Envie-nos um e-mail</p>
+							<p>comercial@sophosne.com</p>
+						</div>
+					</div>
+				</div>
 		</div>
+	</div>
+	<div class="container">
+		<div class="rodape">	
+			<footer>
+				<p>Powered by sophos7</p>
+			</footer>
+		</div>	
 	</div>
 	<script>
 		$('.carousel').carousel({
