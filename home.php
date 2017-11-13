@@ -54,17 +54,17 @@
 						      </div>
 						      <div class="modal-body">
 						        <form action="login.php" method="post">
-						          <div class="form-group">
+						          	<div class="form-group">
     									<input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-						          </div>
-						          <div class="form-group">
-    								<input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-						          </div>
+						          	</div>
+						          	<div class="form-group">
+    									<input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+						          	</div>
+						          	<div class="modal-footer">
+						       		 	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+						        		<button type="submit" class="btn btn-primary">Entrar</button>
+						     		</div>
 						        </form>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-						        <button type="submit" class="btn btn-primary">Entrar</button>
 						      </div>
 						    </div>
 						  </div>

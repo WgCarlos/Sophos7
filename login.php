@@ -1,8 +1,8 @@
 <?php 
 	require 'init.php';
 
-	$email = isset($_POST['email'] ? $_POST['email'] : '');
-	$password = isset($_POST['password'] ? $_POST['email'] : '');
+	$email = isset($_POST['email']) ? $_POST['email'] : '';
+	$password = isset($_POST['password']) ? $_POST['email'] : '';
 
 	if (empty($email) || empty($password)) {
 		echo "Informe Email e Senha";
@@ -21,9 +21,9 @@
 
 	$stmt->execute();
 
-	$users = $stmt->fetchAll(PDO: :FETCH_ASSOC);
+	$users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-	if (count($users) <=0) {
+	if (count($users) <= 0){
 		echo "Email ou Senha Incorretos";
 		exit;
 	}
